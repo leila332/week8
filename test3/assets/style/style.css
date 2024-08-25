@@ -1,0 +1,156 @@
+.container{
+    width: 1440px;
+    height: 900px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    margin-top: 90px;
+    margin-left: 76px;
+}
+
+.header__cart{
+    margin-top: 89px;
+    margin-left: 74px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.body__section{
+    margin-top: 76px;
+    margin-left: 126px;
+}
+
+.title{
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.title__h1{
+    margin-bottom: 10px;
+}
+
+.text__p{
+    margin-bottom: 30px;
+}
+.text{
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.button{
+    background-color: #5222D0;
+    width: 270px;
+    height: 84px;
+    border: none;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 100px
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    color: #5222D0;
+    font-family:  "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 92px;
+}
+
+.nav__li{
+    margin-left: 34px;
+}
+
+a{
+    color: #5222D0;
+    text-decoration: none;
+}
+
+
+.title__2{
+    margin-left: 125px;
+    margin-bottom: 90px;
+}
+
+.main-cart{
+    display: grid;
+    width: 1240px;
+    height: 800px;
+    margin-left: 125px;
+    margin-bottom: 115px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 70% 30%;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.card-title{
+    font-family:  "Roboto Slab", serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.card-text{
+    font-family:  "Roboto Slab", serif;
+    font-size: 20px;
+    line-height: 30px;  
+}
+
+.nav-color, .nav-a{
+    color: black;
+}
+
+.card-news{
+    width: 365px;
+    height: 233px;
+    background-color: #EC615B;
+}
+
+.card-title-color{
+    color: white;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-bottom: 6px;
+}
+
+.submit{
+    background-color: #5222D0;
+    width: 135px;
+    height: 38px;
+    margin-left: 18px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 100px
+}
+
+.card-news__input{
+    width: 323px;
+    height: 50px;
+    margin-left: 18px;
+    margin-bottom: 23px;
+}
